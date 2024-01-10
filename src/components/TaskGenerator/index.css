@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 20px;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 20px;
+}
+.allTags {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.taskItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.resultTasks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.addTaskBtn {
+  background-color: #f3aa4e;
+  color: white;
+}
+.removeColor{
+  background-color: aliceblue;
+  color:black;
+}
+.addColor{
+  background-color: #f3aa4e;
+  color:white;
+}
